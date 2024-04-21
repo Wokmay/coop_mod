@@ -277,11 +277,25 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
-					NOT = { mercantilism = 100 }
+					NOT = { has_country_modifier = papal_blessing_jerusalem }
+					PAP = {
+						religion = catholic
+						owns_core_province = 379
+						owns_core_province = 364
+						owns_core_province = 1854
+					}
+					379 = {
+						has_great_project = {
+							type = any
+							tier = 3
+						}
+					}
 				}
 				effect = {
-					add_mercantilism = 1
+					add_country_modifier = {
+						name = "papal_blessing_jerusalem"
+						duration = 7300
+					}
 				}
 				ai_will_do = {
 					factor = 1

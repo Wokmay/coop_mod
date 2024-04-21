@@ -57,7 +57,7 @@ pacifism_aspect = {
 regular_defenestrations_aspect = {
 	cost = 100
 	modifier = {
-		discipline = 0.25
+		discipline = 0.025
 	}
 }
 
