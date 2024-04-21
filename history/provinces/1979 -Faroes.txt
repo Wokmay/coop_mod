@@ -1,0 +1,19 @@
+#1979 - F�r�arna
+
+owner = SCO
+controller = SCO 
+culture = icelandic
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+capital = "Torshavn"
+is_city = yes
+add_core = SCO
+
+
+
+discovered_by = western
+

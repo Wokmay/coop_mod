@@ -1,0 +1,8 @@
+# Kalmar Union
+union = {
+	first = SWE
+	second = NOR
+	#start_date = 1397.6.17
+	start_date = 1442.6.20
+	end_date = 1448.6.20
+}

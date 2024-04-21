@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+unit_type = western
+primary_culture = norse
+religion = norse_pagan_reformed
+add_accepted_culture = swedish
+capital = 1	#Stockholm
+
+national_focus = MIL
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -6
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+
+1442.6.20 = {
+	monarch = {
+		name = "Agnarr II"
+		dynasty = "Freyr"
+		birth_date = 1419.10.5
+		adm = 3
+		dip = 3
+		mil = 5
+		leader = {	name = "Agnarr II"   type = general	fire = 2	shock = 2	manuever = 3	siege = 3 }
+	}
+}
