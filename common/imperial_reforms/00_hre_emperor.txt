@@ -176,6 +176,9 @@ emperor_expand_gemeiner_pfennig = {
 	potential = {
 		has_dlc = "Emperor"
 	}
+	emperor = {
+		imperial_authority_value = 0.1
+	}
 	emperor_per_prince = {
 		global_manpower = 0.1
 	}
@@ -284,6 +287,7 @@ emperor_erbkaisertum = {
 	}
 	all = {
 		manpower_in_own_culture_provinces = 0.25
+		special_unit_forcelimit = 0.15
 	}
 	required_reform = emperor_imperial_estates
 	gui_container = right_branch
@@ -318,8 +322,8 @@ emperor_renovatio = {
 	}
 
 	all = {
-		special_unit_forcelimit = 0.15
 		infantry_power = 0.15
+		is_samurai_modifier = yes
 	}
 	required_reform = emperor_privilegia_de_non_appelando
 	gui_container = right_branch
