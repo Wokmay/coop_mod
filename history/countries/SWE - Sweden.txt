@@ -9,19 +9,11 @@ capital = 1	#Stockholm
 
 national_focus = MIL
 
-change_estate_land_share = {
-	estate = estate_church
-	share = -6
-}
-change_estate_land_share = {
-	estate = estate_nobles
-	share = 10
-}
 
 1442.6.20 = {
 	monarch = {
 		name = "Agnarr II"
-		dynasty = "Freyr"
+		dynasty = "Bjarki"
 		birth_date = 1419.10.5
 		adm = 3
 		dip = 3
